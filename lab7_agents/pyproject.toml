@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "python-agents"
+version = "0.1.0"
+description = "AI Agents with Google ADK"
+authors = ["Student"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.13,<4.0.0"
+google-adk = "*"
+python-dotenv = "*"
+
+[tool.poetry.group.dev.dependencies]
+flake8 = "*"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
